@@ -1,0 +1,11 @@
+[wsl2]
+memory=12GB
+swap=6GB
+localhostForwarding=true
+
+[interop]
+enabled = false
+appendWindowsPath = false
+
+[boot]
+command = service docker start
